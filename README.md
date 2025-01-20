@@ -6,4 +6,4 @@ React, TypeScript, Webpack
 
 --npm start (для запуска в dev режиме)
 
---npm build (для production)
+--npm run build (для production)
