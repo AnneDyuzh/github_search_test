@@ -7,7 +7,7 @@ import StarIcon from '@shared/assets/icons/star.svg';
 import ForkIcon from '@shared/assets/icons/fork.svg';
 import { RepoIconBlock } from '@shared/ui/RepoIconBlock/RepoIconBlock';
 import { ROUTES } from '@shared/config/routes';
-import './repositoryCard.css';
+import './RepositoryCard.css';
 
 interface RepositoryCardProps {
     repo: Repository;
