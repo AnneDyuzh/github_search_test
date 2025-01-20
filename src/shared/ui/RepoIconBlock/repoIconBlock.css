@@ -1,0 +1,13 @@
+.repo_item_with_icon {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 24px;
+    padding: 4px 8px;
+    background-color: var(--light-blue);
+    color: var(--black);
+    gap: 4px;
+    border-radius: 12px;
+    font-size: var(--font-size-text14);
+    line-height: var(--font-size-text14);
+}

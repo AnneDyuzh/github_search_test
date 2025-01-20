@@ -1,0 +1,4 @@
+.favorite_button_red svg path {
+    fill: var(--red);
+    stroke: var(--red);
+}

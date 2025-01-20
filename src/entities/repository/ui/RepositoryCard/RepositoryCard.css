@@ -1,0 +1,86 @@
+.repo_item {
+    width: 100%;
+    min-width: 282px;
+    box-sizing: border-box;
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    height: 100%;
+}
+
+.repository-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.repo_main_info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.repo_name {
+    font-weight: 600;
+    font-size: var(--font-size-text16);
+    line-height: 18.4px;
+    color: var(--grey);
+}
+
+.repo_full_name {
+    font-size: var(--font-size-text14);
+    line-height: var(--font-size-text14);
+    color: var(--blue)
+}
+
+.repo_icons {
+    display: flex;
+    gap: 12px;
+}
+
+.repo_visual_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.repo_btn_row {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.repo_btn {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: var(--red);
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: var(--font-size-text16);
+    line-height: var(--font-size-text16);
+    color: var(--white);
+    font-weight: 600;
+    text-decoration: none;
+    height: 32px;
+    letter-spacing: -.2px;
+}
+
+.repo_buttons_icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

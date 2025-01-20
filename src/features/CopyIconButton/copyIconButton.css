@@ -1,0 +1,13 @@
+.copy-success {
+    position: fixed;
+    width: 250px;
+    padding: 30px;
+    background-color: var(--white);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

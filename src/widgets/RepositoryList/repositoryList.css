@@ -1,0 +1,37 @@
+.sort_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.repo_list {
+    flex: 1;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: start;
+    margin-top: 24px;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1440px) {
+    .repo_list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .repo_list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sort_container {
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+}

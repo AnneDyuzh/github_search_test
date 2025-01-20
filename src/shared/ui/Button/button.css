@@ -1,0 +1,22 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border-radius: 8px;
+    border: 1px solid var(--light-grey-6);
+    color: var(--grey);
+    background-color: var(--white);
+    font-size: var(--font-size-text14);
+    line-height: var(--font-size-text14);
+}
+
+.back_button {
+    gap: 8px;
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}

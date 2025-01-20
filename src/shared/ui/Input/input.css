@@ -1,0 +1,25 @@
+.input {
+    padding: 12px 20px;
+    background-color: var(--white);
+    border-radius: 12px;
+    border: none;
+    margin: 1px;
+    font-size: var(--font-size-text16);
+    line-height: var(--font-size-text16);
+    color: var(--dark-grey);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.input::placeholder {
+    color: var(--light-grey-4);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.input:focus,
+.input:focus:hover {
+    outline: 1px solid var(--light-grey-4);
+}
+
+.search_input {
+    margin-top: 24px;
+}

@@ -1,0 +1,114 @@
+.repo_detail {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    border-radius: 20px;
+    background-color: var(--white);
+    max-width: 862px;
+    width: 862px;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+
+.repo_detail .repo_btn {
+    height: 40px;
+    width: 100%;
+    max-width: fit-content;
+}
+
+.repo_detail .button {
+    width: 40px;
+    height: 40px;
+}
+
+.repo_detail_avatar {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.repo_detail .repo_buttons_icons {
+    gap: 32px;
+}
+
+.repo_buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 24px;
+    border-top: 1px solid var(--light-grey-3);
+}
+
+.repo_detail_main_info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.repo_detail_row {
+    display: flex;
+    gap: 24px;
+}
+
+.repo_detail_main_info h2 {
+    font-size: var(--font-size-h2);
+    line-height: 27.6px;
+}
+
+.repo_desc {
+    line-height: 28px;
+    color: var(--grey);
+    font-size: var(--font-size-text20);
+}
+
+.detail_info_list {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.repo_detail h1 {
+    line-height: 32.2px;
+    font-size: var(--font-size-h1);
+    color: var(--grey);
+}
+
+@media screen and (max-width: 850px) {
+    .repo_detail {
+        width: 100%;
+    }
+
+    .detail_info_list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .repo_detail_row {
+        flex-direction: column;
+    }
+
+    .detail_info_list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .repo_detail {
+        padding: 25px;
+    }
+
+    .repo_detail_avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .repo_detail .repo_buttons_icons {
+        gap: 16px;
+    }
+
+    .repo_detail .repo_btn {
+        font-size: var(--font-size-text12);
+    }
+}
